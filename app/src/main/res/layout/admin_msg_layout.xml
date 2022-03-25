@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:elevation="8dp"
+
+    android:layout_margin="5dp"
+    android:background="@color/bot_back_color"
+    app:cardCornerRadius="10dp">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/bot_back_color"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:src="@drawable/people"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="User Message"
+            android:id="@+id/Admin_msg_is"
+            android:layout_margin="5dp"
+            android:padding="3dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
